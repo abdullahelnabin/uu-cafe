@@ -1,0 +1,26 @@
+{
+  "name": "User",
+  "type": "object",
+  "properties": {
+    "role": {
+      "type": "string",
+      "enum": [
+        "admin",
+        "user"
+      ],
+      "default": "user"
+    },
+    "studentId": {
+      "type": "string"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

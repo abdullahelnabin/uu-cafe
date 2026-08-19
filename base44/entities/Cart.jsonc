@@ -1,0 +1,27 @@
+{
+  "name": "Cart",
+  "type": "object",
+  "properties": {
+    "foodId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "unitPrice": {
+      "type": "number"
+    },
+    "quantity": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "foodId",
+    "name",
+    "unitPrice",
+    "quantity"
+  ]
+}

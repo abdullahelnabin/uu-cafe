@@ -1,0 +1,37 @@
+{
+  "name": "Food",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Breakfast",
+        "Meals",
+        "Snacks",
+        "Beverages",
+        "Desserts"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "image": {
+      "type": "string"
+    },
+    "available": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "name",
+    "category",
+    "price"
+  ]
+}

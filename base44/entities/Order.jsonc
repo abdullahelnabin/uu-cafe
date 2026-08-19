@@ -1,0 +1,54 @@
+{
+  "name": "Order",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "foodId": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "price": {
+            "type": "number"
+          },
+          "quantity": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "totalPrice": {
+      "type": "number"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "preparing",
+        "ready",
+        "completed",
+        "cancelled"
+      ],
+      "default": "pending"
+    },
+    "studentName": {
+      "type": "string"
+    },
+    "studentNo": {
+      "type": "string"
+    },
+    "tableNo": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "items",
+    "totalPrice",
+    "status"
+  ]
+}
