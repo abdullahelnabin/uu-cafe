@@ -22,5 +22,11 @@
     "phone": {
       "type": "string"
     }
-  }
+  },
+  "required": [
+    "studentId",
+    "fullName",
+    "department",
+    "phone"
+  ]
 }

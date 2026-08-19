@@ -8,7 +8,8 @@ import { Input } from "@/components/ui/input";
 import { Search, Loader2, UtensilsCrossed } from "lucide-react";
 import { toast } from "@/components/ui/use-toast";
 
-const CATEGORIES = ["All", "Breakfast", "Meals", "Snacks", "Beverages", "Desserts"];
+const CATEGORIES = ["All", "Breakfast", "Snacks", "Meals"];
+const CATEGORY_LABELS = { All: "All", Breakfast: "Breakfast & Snacks", Snacks: "Snacks", Meals: "Lunch" };
 
 export default function FoodMenu() {
   const { user } = useAuth();
@@ -80,7 +81,7 @@ export default function FoodMenu() {
                 category === c ? "bg-primary text-primary-foreground border-primary" : "bg-card text-muted-foreground border-border hover:text-foreground"
               }`}
             >
-              {c}
+              {CATEGORY_LABELS[c] || c}
             </button>
           ))}
         </div>
