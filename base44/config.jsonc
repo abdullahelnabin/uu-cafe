@@ -1,5 +1,5 @@
 {
-  "name": "UniCaf\u00e9 Connect",
+  "name": "UniCafé",
   "site": {
     "installCommand": "npm install",
     "buildCommand": "npm run build",
