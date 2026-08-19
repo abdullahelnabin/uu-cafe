@@ -280,37 +280,33 @@ The interface uses responsive layouts and reusable UI components.
 ### Login Page
 
 <p align="center">
-  <img src="<img width="1332" height="903" alt="login" src="https://github.com/user-attachments/assets/b5fe9c60-af80-482d-bf8e-7703b9ae32cf" />
-" width="90%" alt="UU Cafe Login Page">
+  <img src="https://github.com/user-attachments/assets/b5fe9c60-af80-482d-bf8e-7703b9ae32cf" width="90%" alt="UU Cafe Login Page">
 </p>
 
 ### Food Menu
 
 <p align="center">
-  <img src="<img width="1318" height="910" alt="Food-Menu" src="https://github.com/user-attachments/assets/28c2d627-731c-4865-b6b8-dbfa33a0b332" />
-" width="90%" alt="UU Cafe Food Menu">
+  <img src="https://github.com/user-attachments/assets/28c2d627-731c-4865-b6b8-dbfa33a0b332" width="90%" alt="UU Cafe Food Menu">
 </p>
 
 ### Shopping Cart
 
 <p align="center">
-  <img src="<img width="1318" height="903" alt="cart" src="https://github.com/user-attachments/assets/a56ac6a4-2ac6-469f-9121-4e17d2e3ebec" />
-" width="90%" alt="UU Cafe Shopping Cart">
+  <img src="https://github.com/user-attachments/assets/a56ac6a4-2ac6-469f-9121-4e17d2e3ebec" width="90%" alt="UU Cafe Shopping Cart">
 </p>
 
 ### Checkout
 
 <p align="center">
-  <img src="<img width="1331" height="897" alt="orders" src="https://github.com/user-attachments/assets/8703a8b1-30d1-494a-91d5-6f78d599ccc5" />
-" width="90%" alt="UU Cafe Checkout">
+  <img src="https://github.com/user-attachments/assets/8703a8b1-30d1-494a-91d5-6f78d599ccc5" width="90%" alt="UU Cafe Checkout">
 </p>
 
 ### Admin Dashboard
 
 <p align="center">
-  <img src="<img width="1333" height="896" alt="admin-dashboar" src="https://github.com/user-attachments/assets/39a52a24-c73d-4a24-885d-3edd2bd13b03" />
-" width="90%" alt="UU Cafe Admin Dashboard">
+  <img src="https://github.com/user-attachments/assets/39a52a24-c73d-4a24-885d-3edd2bd13b03" width="90%" alt="UU Cafe Admin Dashboard">
 </p>
+
 ## 🔮 Future Improvements
 
 Some possible future improvements include:
